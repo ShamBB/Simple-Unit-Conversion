@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #ccc1ff;
+}
+
+button,
+input {
+  font-family: "Inter", sans-serif;
+}
+
+/* ========
+Typography 
+===========*/
+
+h1,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.84px;
+  color: #fff;
+}
+
+input {
+  font-size: 3.625rem;
+  color: #fff;
+  background-color: #6943ff;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.convert-btn {
+  font-weight: 500;
+  padding: 9px 27.5px;
+  font-size: 1rem;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.convert-btn:hover,
+.convert-btn:focus {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+/*========== 
+Layout
+=========== */
+
+main {
+  max-width: 650px;
+  margin: auto;
+}
+
+.hero {
+  background-color: #6943ff;
+}
+
+.sub-hero {
+  background-color: #1f2937;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  grid-row-gap: 1em;
+  justify-items: center;
+}
+
+.hero {
+  padding: 2.7em 0;
+}
+
+.sub-hero {
+  padding: 2.25em 0;
+}
+
+.sub-hero > *,
+.hero > * {
+  grid-column: 2/-2;
+  text-align: center;
+}
+
+.sub-hero > .col {
+  justify-self: stretch;
+}
+
+.col {
+  border-radius: 4.681px 0px 0px 0px;
+  background: #273549;
+  padding: 1.8em 0 1.2em 0;
+}
+
+/* Input */
+.input-number {
+  width: 117px;
+  border-radius: 5px;
+  border: 2px solid #b295ff;
+  /* justify-self: center; */
+}
