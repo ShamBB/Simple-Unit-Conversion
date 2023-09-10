@@ -18,24 +18,41 @@
     <main>
       <section class="hero main-grid">
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text" class="input-number" />
-        <button class="convert-btn">Convert</button>
+        <input type="text" class="input-number" id="inputNumberEl" />
+        <button class="convert-btn" id="btnConvert">Convert</button>
       </section>
 
       <section class="sub-hero main-grid">
         <div class="col">
           <h3>Length (Meter/Feet)</h3>
-          <p>20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+          <p>
+            <span class="userEnterNum">1</span> meters =
+            <span id="feetEl">3.281</span> feet |
+            <span class="userEnterNum">1</span> feet =
+            <span id="metersEl">0.305</span> meters
+          </p>
         </div>
         <div class="col">
           <h3>Volume (Liters/Gallon)</h3>
-          <p>20 liters = 5.284 gallons | 20 gallons = 75.708 liters</p>
+          <p>
+            <span class="userEnterNum">1</span> liters =
+            <span id="gallonsEl">0.264</span> gallons |
+            <span class="userEnterNum">1</span> gallons =
+            <span id="litersEl">3.785</span> liters
+          </p>
         </div>
         <div class="col">
           <h3>Mass (Kilograms/Pounds)</h3>
-          <p>20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+          <p>
+            <span class="userEnterNum">1</span> kilos =
+            <span id="poundsEl">2.205</span> pounds |
+            <span class="userEnterNum">1</span> pounds =
+            <span id="kilosEl">0.454</span> kilos
+          </p>
         </div>
       </section>
     </main>
+
+    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
