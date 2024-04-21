@@ -20,5 +20,6 @@ This project was created using the following technologies:
 - Vanilla CSS
 - JavaScript
 
-- Screenshot
+  Screenshot
+  
 ![Screenshot 2024-04-21 181458](https://github.com/ShamBB/Simple-Unit-Conversion/assets/26355647/5089f9a4-628a-4aec-ae6c-ab2f3afcec70)
